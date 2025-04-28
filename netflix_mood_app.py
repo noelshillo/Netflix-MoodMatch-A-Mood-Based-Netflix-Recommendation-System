@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load your Netflix data
-df = pd.read_csv('data/netflix_titles.csv')  # Make sure to adjust the path as per your data file
+df = pd.read_csv('C:/Netflix_MoodMatch_Project/data/netflix_titles.csv')  # Make sure to adjust the path as per your data file
 
 # Mood to Genres mapping
 mood_to_genres = {
